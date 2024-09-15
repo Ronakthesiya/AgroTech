@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+  /* Hide scrollbars globally */
+  /* html, body {
+    overflow: hidden;
+  } */
+
+  /* scrollbars */
+  /* html, body {
+    overflow: hidden;
+  } */
+
+  
+
+  /* * {
+    scrollbar-width: none; 
+  } */
+
+  /* Custom scrollbar */
+  .scrollable-container {
+    min-height: 100%; 
+    overflow-y: scroll; 
+    overflow-x: hidden; 
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #235347 #DAF1DE; /* For Firefox */
+    scroll-behavior: smooth;
+    height: 89vh;
+  }
+
+  
+
+  /* WebKit browsers */
+  /* .scrollable-container::-webkit-scrollbar { 
+    width: 12px; 
+  }
+
+  .scrollable-container::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+
+  .scrollable-container::-webkit-scrollbar-thumb {
+    background: #235347; 
+  }
+
+  .scrollable-container::-webkit-scrollbar-thumb:hover {
+    background: #235347; 
+  }  */
